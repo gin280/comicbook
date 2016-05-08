@@ -8,7 +8,7 @@
     <hot v-if='toggle1'></hot>
     <sel v-if='toggle2'></sel>
   </div>
-  <look></look>
+ <!--  <look></look> -->
 </template>
 
 <script>

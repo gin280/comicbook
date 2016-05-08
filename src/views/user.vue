@@ -4,7 +4,12 @@
       <p class="center"><img src="http://img4.imgtn.bdimg.com/it/u=2587651509,2892390707&fm=23&gp=0.jpg" ></p>
     </div>
     <group>
-      <cell title="我的消息" is-link>
+      <cell title="我的消息" is-link v-link="{path:'/user/message', replace: true}">
+        <icon type="success" slot="icon" style='margin-right:10px'></icon>
+      </cell>
+    </group>
+    <group>
+      <cell title="Parallax" is-link v-link="{path:'/user/parallax', replace: true}">
         <icon type="success" slot="icon" style='margin-right:10px'></icon>
       </cell>
     </group>
